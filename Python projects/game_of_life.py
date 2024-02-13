@@ -1,3 +1,11 @@
+'''
+This is my approach to classic game of life. 
+You can: 
+- see the evolution of a game on a grid,
+- pause and resume the evolution 
+- alter the state of the game by clicking on a grid (thus adding specimen to the population or subtracting one)
+- restart the game with a button placed on a grid
+'''
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
